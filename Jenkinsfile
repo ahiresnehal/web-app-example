@@ -13,7 +13,7 @@ pipeline {
                                                }
                          stage('git clone') {
                                               steps {
-                                         git credentialsId: 'githubID', url: 'https://github.com/ahiresnehal/web-app-example.git'
+                                         git credentialsId: 'githubclass', url: 'https://github.com/ahiresnehal/web-app-example.git'
                                                 sh 'ls'
                                                 sh 'pwd'
                                                         }

@@ -11,14 +11,7 @@ pipeline {
                                                echo 'Hello World'
                                                }
                                                }
-                         stage('git clone') {
-                                              steps {
-                                         git credentialsId: 'githubclass', url: 'https://github.com/ahiresnehal/web-app-example.git'
-                                                sh 'ls'
-                                                sh 'pwd'
-                                                        }
-                                                        }
-            
+                         
  
   }
   }
